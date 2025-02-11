@@ -14,7 +14,7 @@ body{
 }
 /* Ensure the home-container covers the whole viewport */
 .home-container {
-    /* height: 100vh; */
+    height: 100vh;
     width: 100%;
     background: url("../images/moyoLedgers-landing\ page.png") no-repeat center center/cover;
     color: white;
@@ -101,9 +101,9 @@ body{
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    @media (max-width:352px) {
-      margin-top: 30px;
-    }
+    /* added */
+    position: absolute; 
+    bottom: 0;
   }
   .other-pages{
     display: flex;
