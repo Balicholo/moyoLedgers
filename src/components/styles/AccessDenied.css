@@ -1,0 +1,42 @@
+.access-denied-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("../images/moyoLedgers-landing\ page.png") no-repeat center center/cover;
+  }
+  
+  .access-box {
+    width: 50%;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    @media (max-width:685px) {
+        width: 90%;
+    }
+  }
+  .access-box h2, strong{
+    color: #1d4355;
+  }
+  .access-box p a{
+    text-decoration: none;
+    color: #1d4355;
+    font-weight: 600;
+  }
+  
+  .accept-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #1d4355;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .accept-button:hover {
+    background-color: #367c9c;
+  }
+  

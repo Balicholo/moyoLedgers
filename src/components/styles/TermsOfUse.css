@@ -1,0 +1,125 @@
+/* Full page container */
+.terms-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    padding: 20px;
+    background: url("../images/moyoLedgers-landing\ page.png") no-repeat center center/cover;
+  }
+  
+  /* Centered Terms Box */
+  .terms-box {
+    background: white;
+    width: 60%;
+    height: 600px; /* Adjust as needed */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    @media (max-width:929px) {
+        width: 90%;
+    }
+    @media (max-width:523px) {
+        width: 100%;
+    }
+  }
+  
+  /* Icon */
+  .terms-icon {
+    font-size: 30px;
+    color: #1d2b53;
+  }
+  
+  /* Title */
+  .terms-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #1d2b53;
+    margin-bottom: 10px;
+  }
+  
+  /* Summary */
+  .terms-summary {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  /* Scrollable Content */
+  .terms-content {
+    flex-grow: 1; /* Pushes buttons to the bottom */
+    overflow-y: auto;
+    text-align: left;
+    font-size: 14px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #1d2b5300;
+    padding: 10px;
+    position: relative;
+  }
+  .terms-content p{
+    color: #666;
+  }
+  .terms-content span{
+    color: #1d2b53;
+    font-weight: 600;
+  }
+  .terms-content ul li{
+    color: #666;
+  }
+  
+  /* Fading Effect */
+  .fade-effect {
+    position: absolute;
+    bottom: 55px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), white);
+  }
+.policy-page{
+    bottom: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+} 
+  /* Buttons */
+  .terms-buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: auto; /* Pushes it to the bottom */
+  }
+  .term-heading{
+    color: #1d2b53;
+  }
+  /* Accept & Decline Buttons */
+  .accept-btn, .decline-btn {
+    width: 45%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .accept-btn {
+    background-color: #1d2b53;
+    color: white;
+  }
+  
+  .decline-btn {
+    background-color: #cecece;
+    color: #333;
+  }
+  
+  .accept-btn:hover {
+    background-color: #2f4485;
+  }
+  
+  .decline-btn:hover {
+    background-color: #ddd;
+  }
+  
